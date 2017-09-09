@@ -1,0 +1,57 @@
+body {
+  background: #e5e5e5;
+  margin-top: 50px;
+}
+#game_container {
+  margin: 0 auto;
+  width: 400px;
+}
+.no-padding {
+  margin: 0;
+  padding: 0;
+}
+.square {
+  background: #000000;
+  height: 150px;
+  width: 100%;
+}
+.square:hover {
+  background: #4c4cff;
+}
+.square:disabled {
+  background: #999999;
+}
+.square:focus {
+  outline: 0;
+}
+.player-turn {
+  color: #ffffff;
+  background: #000000;
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.circle,
+.ex {
+  font-size: 45px;
+}
+.circle {
+  color: green;
+}
+.ex {
+  color: red;
+}
+.btn-container {
+  margin: 25px 0px;
+  text-align: center;
+}
+.btn-reset {
+  padding: 15px 5px;
+  width: 100%;
+}
+.btn-reset:focus {
+  outline: 0;
+}
