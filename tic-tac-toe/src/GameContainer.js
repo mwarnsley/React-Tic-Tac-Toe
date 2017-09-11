@@ -30,7 +30,6 @@ class GameContainer extends Component {
   }
   render() {
     const {state, squares, playerTurn, winner, playerWon, turnsTaken} = this.props;
-    console.log('This is State: ', state);
     let gameText = `Player ${playerTurn} it's your turn to play!`;
     if (winner) {
       gameText = `Player ${playerWon} is the WINNER!`;
