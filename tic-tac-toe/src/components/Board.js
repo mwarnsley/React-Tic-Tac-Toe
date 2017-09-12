@@ -6,8 +6,7 @@ import Button from './Button';
 import O from './O';
 import X from './X';
 
-const Board = props => {
-  const {squares} = props;
+const Board = ({squares}) => {
   return (
     <Row>
       {map(squares, (s, i) => {
