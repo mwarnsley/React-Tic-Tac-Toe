@@ -6,7 +6,7 @@ import Button from './Button';
 import O from './O';
 import X from './X';
 
-const Board = ({squares}) => {
+const Board = ({squares, squareSelect}) => {
   return (
     <Row>
       {map(squares, (s, i) => {
@@ -24,7 +24,7 @@ const Board = ({squares}) => {
               value={s._id}
               type="button"
               btnText={btnText}
-              onClick={props.squareSelect}
+              onClick={squareSelect}
             />
           </Col>
         );
